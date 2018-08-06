@@ -1,0 +1,10 @@
+:root {
+	--color-primaryBrand: hsl(0, 50%, 50%);
+
+	--color-primaryForeground: hsl(0, 0%, 7%);
+	--color-primaryBackground: hsl(0, 0%, 97%);
+
+	--font-size: calc(1em + (21 - 16) * (100vw - 412px) / (1920 - 412));
+	--font-primaryFamily: "Garamond", "Times New Roman", serif;
+	--font-secondaryFamily: Helvetica, Arial, Verdana, sans-serif;
+}

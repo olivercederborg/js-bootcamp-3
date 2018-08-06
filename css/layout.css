@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	display: grid;
+	grid-template-columns: 13vw auto 13vw;
+	grid-template-rows: 10vw auto 20vw;
+	grid-template-areas:
+		"header header header"
+		". main ."
+		"footer footer footer"
+}
+
+.siteHeader {
+	grid-area: header;
+}
+
+main {
+	grid-area: main;
+}
+
+.siteFooter {
+	grid-area: footer;
+}

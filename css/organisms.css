@@ -1,0 +1,27 @@
+body {
+	font-size: var(--font-size);
+	font-family: var(--font-primaryFamily);
+	color: var(--color-primaryForeground);
+	background-color: var(--color-primaryBackground);
+}
+
+.siteHeader {
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: var(--color-primaryBrand);
+	padding: 3vw;
+	box-sizing: border-box;
+}
+
+.siteHeader nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.siteFooter {
+	padding: 1vh;
+	color: var(--color-primaryBackground);
+	background-color: var(--color-primaryForeground);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
